@@ -45,4 +45,4 @@ const PostsExcept = ({post}: Props) => {
 
 // Il memo() fa sì che viene reindirizzato il componente solo al cambiare delle props
 // Esportandolo come memo in questo modo si evita di dover tipizzare il componente e di lasciarlo come const senza doverlo riassegnare
-export default React.memo(PostsExcept); 
+export default React.memo(PostsExcept);  

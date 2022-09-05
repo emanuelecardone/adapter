@@ -21,7 +21,7 @@ const UserPage = () => {
 
     return (
         <section className="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
-            <h2 className="mb-5">Posts by {user.name}</h2>
+            <h2 className="mb-5">Posts by {user?.name}</h2>
 
             <ul className="text-center" style={{'listStyleType': 'none'}}>
                 {postTitles}

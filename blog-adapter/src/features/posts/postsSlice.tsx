@@ -1,10 +1,5 @@
 // nanoid è uno strumento di redux toolkit per generare id random
-import { 
-    createSlice, 
-    nanoid, 
-    PayloadAction, 
-    createAsyncThunk, 
-    createSelector } from "@reduxjs/toolkit";
+import { createSlice, nanoid, PayloadAction, createAsyncThunk, createSelector } from "@reduxjs/toolkit";
 import { RootState } from "../../app/store";
 import axios from "axios";
 import {sub} from "date-fns";
