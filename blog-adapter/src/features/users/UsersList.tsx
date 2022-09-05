@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const UsersList = () => {
 
     const users = useSelector(selectAllUsers);
-
+    
     const renderedUsers = users.map(user => (
         <li key={user.id} className='text-center'>
             <Link to={`/user/${user.id}`} className='user-link' style={{'color': 'white', 'textDecoration': 'none'}}>{user.name}</Link>
