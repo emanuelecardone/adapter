@@ -61,6 +61,8 @@ export enum Status {
     PENDING = 'pending'
 }
 
+let aaa;
+
 type InitialState = {
     posts: Post[];
     status: Status;
