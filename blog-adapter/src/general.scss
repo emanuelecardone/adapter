@@ -46,6 +46,15 @@ header{
       text-decoration: none;
     }
   }
+
+  .count-box{
+
+    display: none;
+
+    @media screen and (min-width: 900px){
+      display: flex;
+    }
+  }
 }
 
 .app{
@@ -62,7 +71,6 @@ header{
   .posts-section{
     width: 70%;
     max-height: 90%;
-    border-radius: 20px;
     overflow-y: auto;
     background-color: purple;
   }
